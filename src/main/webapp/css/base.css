@@ -1,0 +1,178 @@
+
+#graphCanvas {
+	border:1px solid #000000;
+}
+
+.compSumsDiv {
+	clear:left;
+	position: relative;
+    top: 20px;
+}
+
+.chart_box {
+    border:1px solid #DDDDDD;
+    margin: 0 7px 14px;
+}
+
+.chart_area {
+    float: left;
+    min-height: 20px;
+    width: 50%;
+}
+
+.myfocus {
+    border-color: #66AFE9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+
+.endpoint {
+	position: absolute;
+	right: 15px;
+	top: 1px;
+}
+
+.required::before {
+ content: "*";
+ padding-right:8%;
+ color: red;
+}
+
+.row_padding {
+    padding: 10px 0 10px 0 ;
+}
+
+.model-page-body-iframe{
+
+	width:100%;
+	height:100%;
+	border: none;
+	display: block;
+}
+
+.yunlogcontent{
+    border: 1px solid #D4D8D9;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    width:220px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    float:left;
+    margin:10px 10px 10px 10px;
+    overflow: hidden;
+    height: auto;
+}
+
+.yunlogcontent h3{
+    text-align:center;
+    padding:5px 0 5px 0;
+}
+
+.yunlogcontent .highway{
+    border-top:1px solid #D4D8D9;
+    padding:5px;
+}
+.yunlogcontent .logdes{
+    padding:5px;
+    font-size: 14px;
+    height:50px;
+    overflow: hidden;
+}
+.yunlogcontent .addCheckDiv{
+    border-top:1px solid #D4D8D9;
+    text-align:center;
+    background: #F2F2F2;
+    border-bottom: 1px solid #EEE;
+}
+.yunlogcontent .addCheckDiv a{
+    float:right;
+}
+.addCheckDiv > a{
+    margin: 0 3px;
+}
+.yunlogcontent .highway ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height: 60px;
+}
+
+.yunlogcontent .highway ul li{
+    margin:2px 0 2px 0;
+    float: left;
+}
+
+.yunlogcontent .highway ul li label{
+    width: auto;
+    float: left;
+    padding: 0;
+    margin: 0px;
+    padding-right: 2px;
+}
+
+.yunlogcontent .highway ul li,.yunlogcontent .highway ul li label{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    color: #aaa;
+}
+.logcententDiv{
+    float: left;
+    min-width: 1024px;
+    margin-left: 20px;
+    width: 83%;
+}
+.lognav{
+    font-size:13px;
+}
+
+.clear{
+    clear:both;
+    height:0;
+    margin:0;
+    padding:0;
+}
+
+.container-fluid{
+    margin-top:1px;
+}
+.container-fluid .leftC,.container-fluid .rightC{
+    float:left;
+}
+.container-fluid .leftC{
+    width: 180px;
+    margin-left:6px;
+}
+.container-fluid .rightC{
+    width: 85%;
+    min-width: 980px;
+    margin-left: 10px;
+    border: 1px solid #E6E6E6;
+    padding: 10px;
+    border-radius: 5px;
+}
+/** common left **/
+.leftInfo{
+    margin-bottom:20px;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px 3px 0 0;
+    min-height: 100px;
+    background:#f5f5f5;
+    overflow-x: hidden;
+}
+
+.leftInfo > h4{
+    padding: 5px 10px;
+    background: #08c;
+    color: #fff;
+    border-radius:3px 3px 0 0;
+}
+
+.table .span1{float:none;width:44px;margin-left:0;}
+.table .span2{float:none;width:124px;margin-left:0;}
+.table .span3{float:none;width:204px;margin-left:0;}
+.table .span4{float:none;width:284px;margin-left:0;}
+.table .span5{float:none;width:364px;margin-left:0;}
+.table .span6{float:none;width:444px;margin-left:0;}
+.table .span7{float:none;width:524px;margin-left:0;}
+.table .span8{float:none;width:604px;margin-left:0;}
+.table .span9{float:none;width:684px;margin-left:0;}

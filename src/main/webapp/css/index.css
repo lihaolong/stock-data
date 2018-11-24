@@ -1,0 +1,117 @@
+﻿@charset "UTF-8";
+body {
+    font-family:"微软雅黑";
+    min-width: 1280px;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    /*color: #288df0;*/
+    /*color: #000;*/
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #f60 !important;
+}
+a.btn:hover {
+    color: white !important;
+}
+.well {
+    border-radius:0 !important;
+    box-shadow:none !important;
+}
+.modal-dialog {
+    z-index: 1050;
+}
+.modal-header {
+    padding:10px 15px
+}
+.modal-footer {
+    margin:0;
+    padding:5px 20px
+}
+#userBar {
+    height: 30px;
+    background-color: #FAFAFA;
+    padding: 4px 10px;
+    color: #8C8C8C;
+    /*border-bottom: 1px solid #e3e3e3;*/
+}
+#userBar > div:first-child a {
+    text-decoration: none;
+    color: #8C8C8C;
+}
+#header {
+	margin-top:10px;
+}
+#header > table {
+    width: 100%;
+}
+#header > table form {
+    width: 100%;
+}
+#header > table form .form-group {
+    width: 80% !important;
+}
+#header > table .twitter-typeahead {
+    width: 100% !important;
+}
+#header > table .form-control {
+    width: 100% !important;
+}
+.suggestionPanel {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+}
+.search-item {
+    color: #298CF0;
+    display: block;
+    height: 25px;
+    line-height: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    width: 100%;
+}
+.search-item:hover {
+    background-color: #ccc;
+    text-decoration: none;
+}
+.hot-keywords {
+    padding-left: 15px;
+    height:20px;
+    margin-bottom:5px;
+    overflow: hidden
+}
+#logoImg {
+    margin-top:-10px;
+    margin-left:62px
+}
+
+.topNavMenu {
+    background-color: #428bca;
+    height: 32px;
+    padding-left: 20px;
+}
+ul.topNavMenu {
+    list-style: none;
+    margin-bottom: 0;
+}
+.topNavMenu li {
+    float: left;
+}
+.topNavMenu li .btn,.categoryNav {
+    border-radius:0;
+    border: none;
+    min-width: 110px;
+    height: 32px;
+    font-size: 15px;
+}
+.topNavMenu li .btn {
+    padding: 5px 16px;
+}
